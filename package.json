@@ -12,7 +12,7 @@
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
     "object-assign":"4.1.0",
-    "hello-npm":"git+ssh://tanaka733@tanaka733.visualstudio.com/DefaultCollection/_git/hello-npm"
+    "hello-npm":"git+ssh://git@github.com:tanaka-takayoshi/nodejs-ex.git"
   },
   "engine": {
     "node": "*",
