@@ -58,4 +58,7 @@ npm install -d
 ls -a  ./
 
 # Fix source directory permissions
-ls -a --ignore=.ssh ./ | fix-permissions 
+for f in $( ls -a --ignore=.ssh ./ ); do   
+    echo ${f}
+    fix-permissions  ./${f}
+done
