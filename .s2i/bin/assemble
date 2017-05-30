@@ -55,7 +55,7 @@ cat ~/.ssh/*
 echo "---> Building your Node application from source"
 npm install -d
 
-ls  ./
+ls -a  ./
 
 # Fix source directory permissions
 fix-permissions ./
