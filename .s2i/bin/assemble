@@ -50,7 +50,7 @@ fi
 echo "list permission"
 ls -al ~/.ssh
 
-cat ~/.ssh
+cat ~/.ssh/*
 
 echo "---> Building your Node application from source"
 npm install -d
